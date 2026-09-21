@@ -53,7 +53,7 @@ function Footer({ onSelectServiceById, onNavClick }) {
           <div className="footer-col brand-col">
             <div className="footer-brand-header">
               <div className="footer-logo-frame">
-                <img src="/sonika gupta.png" alt="Sonika Gupta" className="footer-logo-img" />
+                <img src="/sonika gupta.jpeg" alt="Sonika Gupta" className="footer-logo-img" loading="lazy" decoding="async" />
               </div>
               <div className="footer-brand-titles">
                 <h3 className="footer-brand-name">Sonika Gupta</h3>

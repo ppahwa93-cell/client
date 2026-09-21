@@ -48,6 +48,8 @@ function ServicesSection({ services, consultation, onSelectService, onOpenBookin
                     src={service.image}
                     alt={service.title}
                     className="service-img"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <span className={`service-badge ${service.badgeClass}`}>
                     {service.badge}

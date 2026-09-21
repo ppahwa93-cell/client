@@ -10,9 +10,11 @@ function AboutSection() {
         <div className="about-image-column">
           <div className="about-photo-wrapper">
             <img
-              src="/sonika gupta.png"
+              src="/sonika gupta.jpeg"
               alt="Sonika Gupta – Certified Past Life Regression Therapist"
               className="about-portrait-img"
+              loading="lazy"
+              decoding="async"
             />
             <div className="about-photo-caption">
               <Award size={18} className="caption-gold-icon" />

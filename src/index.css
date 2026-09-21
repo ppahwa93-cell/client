@@ -596,7 +596,8 @@ body {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg,
+  background-color: transparent;
+  background-image: linear-gradient(105deg,
       rgba(18, 3, 28, 0.75) 0%,
       rgba(45, 10, 78, 0.55) 45%,
       rgba(18, 3, 28, 0.15) 100%);

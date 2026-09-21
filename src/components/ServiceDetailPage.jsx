@@ -142,7 +142,7 @@ function ServiceDetailPage({ service, onBack, onOpenBooking }) {
             {/* Right Featured Card Image */}
             <div className="detail-hero-right">
               <div className="detail-image-card">
-                <img src={service.image} alt={service.title} className="detail-hero-img" />
+                <img src={service.image} alt={service.title} className="detail-hero-img" loading="lazy" decoding="async" />
                 <div className="detail-image-overlay" />
                 <div className="detail-image-caption">
                   <div className="caption-icon-wrap">

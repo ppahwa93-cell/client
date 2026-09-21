@@ -40,7 +40,7 @@ function Preloader({ onLoaded }) {
           <div className="preloader-ring-pulse" />
           <div className="preloader-ring-spin" />
           <div className="preloader-avatar-frame">
-            <img src="/sonika gupta.png" alt="Sonika Gupta" className="preloader-avatar-img" />
+            <img src="/sonika gupta.jpeg" alt="Sonika Gupta" className="preloader-avatar-img" decoding="async" />
           </div>
         </div>
 

@@ -8,6 +8,9 @@ function HeroSection({ setActiveTab, onOpenBooking }) {
           src="/banner.png"
           alt="Heal Past Life Trauma - PastLifeWithSonika"
           className="hero-banner-img"
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
         />
 
         {/* Dark overlay for text readability */}

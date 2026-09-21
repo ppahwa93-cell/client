@@ -99,6 +99,7 @@ function Header({ activeTab = 'home', setActiveTab = () => {}, onSelectServiceBy
                 src="/past life logo.jpeg"
                 alt="Past Life With Sonika Logo"
                 className="brand-logo-img"
+                decoding="async"
               />
             </div>
           </a>

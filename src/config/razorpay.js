@@ -107,13 +107,17 @@ export const launchRazorpayPayment = async ({
     return
   }
 
+  const logoUrl = typeof window !== 'undefined' && window.location.origin && !window.location.origin.includes('localhost')
+    ? `${window.location.origin}/past%20life%20logo.jpeg`
+    : undefined
+
   const options = {
     key: RAZORPAY_CONFIG.keyId,
     amount: Math.round(Number(amount) * 100), // amount in paise
     currency: 'INR',
     name: RAZORPAY_CONFIG.businessName,
     description: `Booking: ${serviceTitle} (${RAZORPAY_CONFIG.businessDescription})`,
-    image: RAZORPAY_CONFIG.logo,
+    ...(logoUrl && { image: logoUrl }),
     prefill: {
       name: customerName || '',
       email: customerEmail || '',
